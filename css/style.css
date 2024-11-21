@@ -1,0 +1,368 @@
+/* start global variables  */
+:root{
+    --section-color:#f8f8f8;
+    --text-color:#686868;
+    --heading-font-size:32px;
+    --icon-backgrund:#8e7754;
+
+}
+
+
+/* end global variables  */
+/* start global rules  */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: "Alegreya", serif;
+}
+ul {
+  list-style: none;
+}
+.container {
+  padding: 0 50px;
+  margin: 0 AUTO;
+}
+a {
+  text-decoration: none;
+    
+}
+.section-padding{
+    padding-top:90px;
+    padding-bottom: 60px;
+}
+/* end global rules  */
+.home {
+    height: 100vh;
+    background-image: url(../imgs/alexandru-stavrica.jpg);
+    background-size: cover;
+}
+
+.header {
+  padding: 20px ;
+  text-align: center;
+}
+.header .logo{
+    width:39%;
+    display: inline-block; 
+}
+.header .mainMenu{
+    width: 60%;
+    display: inline-block;
+}
+.mainMenu .navbarnav {
+  display: inline-block;
+  padding: 15px;
+}
+.mainMenu .navbarnav a {
+    color:white;
+    font-size: 18px;
+}
+.header .logo img{
+    width:150px;
+}
+
+.container .content{
+    text-align: center;
+    padding:100px 60px 80px 60px ;
+    color: rgb(242, 239, 239);
+}
+.content h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.content p.welcome2 {
+font-size: 25px;
+margin: 60px 0 20px 0;
+}
+
+.content p.welcome1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content .btn button {
+    padding:15px 25px ;
+    margin:20px 0 ;
+    font-size: 15px;
+    font-weight: bold ;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 3px;
+}
+.content .btn .active {
+    background-color: var(--icon-backgrund);
+    border: none;
+    border-radius: 5px;
+}
+/* start who we are  */
+.whoWeAre .content-image{
+    width:40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.whoWeAre .content-image img {
+    width: 100%;
+}
+.whoWeAre .content-data{
+    width:59%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 100px ;
+}
+.whoWeAre .content-data h2 {
+    margin-bottom: 30px;
+    font-size: var(--heading-font-size);
+
+}
+.whoWeAre .content-data p {
+    line-height: 1.8;
+    font-size: 17px;
+    color: var(--text-color);
+
+}
+.whoWeAre .content-data li{
+    padding: 20px;
+}
+.whoWeAre .content-data li img {
+    width:40px;
+    border-radius: 50%;
+    border: 1px solid rgb(197, 197, 197);
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.whoWeAre .content-data li span {
+    color: var(--text-color);
+}
+/* end who we are  */
+/* start location  */
+.location{
+    background-color: var(--section-color);
+}
+.location .description{
+    width:45%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 40px;
+
+}
+.location .description h2 {
+    font-size: var(--heading-font-size);
+    margin-bottom: 40px;
+
+}
+.location .description p {
+    line-height: 1.8;
+    margin-bottom:20px;
+    color: var(--text-color);
+
+
+}
+.location .image {
+    width:45%; 
+    display: inline-block;
+    vertical-align: middle;
+}
+.location .image img {
+    width: 100%;
+    padding-left: 40px;
+}
+/* end location  */
+/* start our baking  */
+.our-baking {
+    text-align: center;
+
+}
+.our-baking .heading h2{
+    font-size: var(--heading-font-size);
+    margin-bottom: 20px;
+}
+.our-baking .heading p{
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+.our-baking .ourContent{
+    margin-top: 30px;
+    
+
+}
+.our-baking .ourContent .pro-1 , .pro-2 , .pro-3  {
+    width:30%;
+    float: left;
+    color: black;
+    padding: 20px;
+
+}
+.our-baking .ourContent .clear{
+    clear: both;
+
+}
+.our-baking .ourContent img {
+    width: 100%;
+
+}
+.our-baking .ourContent p {
+    line-height: 1.8;
+    color:var(--text-color);
+
+}
+.our-baking .ourContent h5 {
+    padding:20px;
+    font-size: 18px;
+}
+/* end our baking  */
+/* start contact  */
+.contact {
+
+    background-color: var(--section-color);
+}
+.contact .contactData {
+    width:40%;
+    float: left;
+}
+.contact .contactData h2 {
+    font-size: var(--heading-font-size);
+    margin-bottom: 30px;
+}
+.contact .contactData p{
+    color: var(--text-color);
+    line-height: 1.8;
+    margin: 30px 0;
+}
+.contact .contactData ul li {
+    padding: 10px;
+    color: var(--text-color);
+
+}
+.contact .contactData ul li img {
+    width:40px;
+    background-color: var(--icon-backgrund);
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.contact .map {
+    width:50%;
+    float: left;
+    margin-left: 120px;
+}
+.contact .map img {
+    width:80%;
+}
+.contact .clear{
+    clear: both;
+}
+/* end contact  */
+/* start inquiry */
+.inquiry{
+    background-color: #403d38;
+}
+.inquiry .about{
+    float: left;
+    width:25%;
+    margin: 10px;
+    
+
+}
+.inquiry h2 {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 18px;
+    
+}
+.inquiry .about p {
+    color: rgb(110, 109, 109);
+    line-height: 1.8;
+    margin-bottom: 20px;
+
+}
+.inquiry .data{
+    float: left;
+    width:20%;
+    margin: 10px;
+
+}
+.inquiry .data li{
+    
+    color: rgb(110, 109, 109);
+    border-bottom: 1px solid var(--text-color);
+    padding: 10px;
+    
+
+}
+.inquiry .data li:last-of-type{
+    border: none;
+
+}
+.inquiry .data li::before{
+
+}
+.inquiry .details{
+    float: left;
+    width:25%;
+    margin: 10px;
+
+}
+.inquiry .details li{
+    color: rgb(110, 109, 109);
+    padding: 10px;
+    /* border-bottom: 1px solid var(--text-color); */
+
+}
+.inquiry .details li img{
+    width:40px ;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.inquiry .text{
+    
+    display: inline-block;
+    vertical-align: middle;
+    width: 85%;
+}
+.inquiry .clear{
+    clear: both;
+}
+/* end inquiry  */
+/* start footer  */
+.footer{
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+}
+.footer .logo {
+    width:30%;
+    margin:auto;
+}
+.footer .logo img {
+    width:100%
+}
+.footer p{
+    color:var(--text-color);
+    margin: 30px 0 ;
+}
+
+.footer .link {
+    margin:10px;
+}
+.footer .link img {
+    width:40px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
